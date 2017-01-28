@@ -1,0 +1,203 @@
+@media screen and (max-width: 1590px) {
+  .bg-main {
+    height: auto;
+  }
+  form {
+    text-align: center;
+  }
+  input[type="text"] {
+    display: block;
+    margin: 10px auto 0;
+  }
+  .email-input,
+  .shipping-input,
+  .city-input {
+    background: transparent url("../img/input1.png") no-repeat;
+    border: none;
+    width: 270px;
+    height: 60px;
+  }
+  .i-1 {
+    top: 23px;
+  }
+  h2,
+  .p-form {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1280px) {
+  header {
+    margin-bottom: 10%;
+  }
+  footer {
+    position: relative;
+  }
+  /*-----*/
+  .click {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .slogan-page2 {
+    padding-left: 0;
+    font-size: 44px;
+    text-align: center;
+  }
+  .logo-img {
+    display: block;
+    width: 200px;
+    margin: 15px auto 0;
+  }
+  .slog-logo {
+    font-size: 20px;
+  }
+  .text-logo {
+    font-size: 14px;
+  }
+  .delivery-img,
+  .pizza-img {
+    width: 150px;
+  }
+  .text-delivery,
+  .text-car,
+  .text-pinball,
+  .text-pizza {
+    font-size: 32px;
+  }
+  .car-img {
+    width: 200px;
+  }
+  .pinball-img {
+    width: 115px;
+  }
+}
+@media screen and (max-height: 600px) {
+  .bg-main2 {
+    height: 700px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  form {
+    max-width: 100%;
+  }
+  header {
+    margin-bottom: 8%;
+  }
+  .pinball-img {
+    top: 50px;
+  }
+  .text-pinball {
+    top: 60px;
+  }
+  .delivery:hover,
+  .car:hover,
+  .pinball:hover,
+  .pizza:hover {
+    transform: translateY(0);
+  }
+  .pizza-top {
+    top: -80px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .main {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 850px) {
+  .text-delivery,
+  .text-car {
+    position: relative;
+    top: -80px;
+    left: -8px;
+  }
+  .main {
+    height: auto;
+  }
+  .pinball-img {
+    top: 20px;
+  }
+  .text-pinball {
+    top: -150px;
+    left: -15px;
+    position: relative;
+  }
+  .text-pizza {
+    left: -20px;
+    top: -195px;
+    position: relative;
+  }
+  .pizza-top {
+    top: -165px;
+  }
+  /*-----*/
+  h1 {
+    font-size: 8vw;
+    padding-top: 15px;
+  }
+  .head {
+    margin-bottom: 2%;
+  }
+  .img-center img {
+    width: 50%;
+  }
+  .footer-page2 {
+    font-size: 14px;
+    width: 90%;
+  }
+  .click {
+    font-size: 8vw;
+  }
+  .slogan-page2 {
+    font-size: 8vw;
+  }
+  .float-shadow:hover,
+  .float-shadow:focus,
+  .float-shadow:active {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .float-shadow:hover:before,
+  .float-shadow:focus:before,
+  .float-shadow:active:before {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@media screen and (max-width: 768px) {
+  .pizza-top {
+    top: 25px;
+  }
+  h2 {
+    font-size: 12vw;
+  }
+  .p-form {
+    font-size: 4vw;
+  }
+  .submit-btn,
+  .cancel-btn {
+    font-size: 9vw;
+  }
+  .cancel-btn {
+    margin-left: 0;
+  }
+}
+@media screen and (max-height: 480px) {
+  .bg-main2 {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logo-img {
+    width: 190px;
+  }
+  .slog-logo {
+    font-size: 14px;
+  }
+  .text-logo {
+    font-size: 12px;
+  }
+  .footer-text a {
+    font-size: 40px;
+  }
+}

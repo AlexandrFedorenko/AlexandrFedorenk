@@ -1,0 +1,336 @@
+@import url(reset.css);
+
+body {
+	font:13px/1.4 Arial,Verdana, sans-serif;
+	background:url(../images/bg.jpg) repeat;
+	color:#5e5e5e;
+}
+
+.clear {
+	clear:both;
+}
+
+p {
+	margin:7px 0 12px 0;
+}
+a {
+	text-decoration:none;
+	color:#5e5e5e;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+h2 {
+	font-size:18px;
+	line-height:1.1;
+	margin-bottom:5px;
+}
+
+#header,#bottom-content,#inner-menu, #wrapper, #middle2,#bootom-content {
+	min-width:960px;
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+#logo {
+	width:241px;
+	height:46px;
+	float:left;
+	margin-top:44px;
+	margin-bottom:42px;
+	margin-left:10px;
+}
+
+#banner {
+	width: 468px;
+	height:60px;
+	float:right;
+	margin-top:34px;
+	margin-right:10px;
+}
+
+#top-menu {
+	height:49px;
+	background:url(../images/menu.png) repeat-x;
+	min-width:960px;
+}
+
+#inner-menu ul li {
+	float:left;
+	text-transform:uppercase;
+}
+
+#inner-menu a {
+	color:#ebebeb;
+	font-size:12px;
+	padding:16px 15px;
+	display:block;
+	
+}
+
+#inner-menu a:hover {
+	background:url(../images/menupol.png)repeat-x;
+	text-decoration:none;
+}
+
+#sidebar {
+	width:300px;
+	float:right;
+	padding-right:10px;
+}
+
+#content {
+	margin-right:310px;
+	padding: 30px 38px 0 10px;
+	
+}
+
+
+.thumbnail {
+	float:left;
+	margin-bottom:15px;
+}
+
+.thumbnail {
+	border:3px solid #e0e0e0;
+}
+
+.post-content {
+	margin-left:180px;
+}
+
+.post-catigories, .post-publishing {
+	font-family:Georgia,"Times New Roman",Times,sans-serif;
+	color:#aaaaaa;
+}
+
+.post-catigories {
+	margin:0 0 3px 0;
+}
+.post {
+	border-bottom:1px dashed #e5e5e5;
+	overflow:hidden;
+	margin-top:15px;
+}
+
+.post:first-child {
+	margin-top:0;
+}
+
+#sidebar h3 {
+	font-size: 15px;
+	color:#999999;
+	text-decoration:uppercase;
+	font-weight:bold;
+	background: url(../images/zalivka.png) repeat-x 0 6px;
+	padding-left:22px;
+	margin-top:26px;
+	margin-bottom:25px;
+}
+
+#sidebar h3 span {
+	background: url(../images/bg.jpg);
+	padding:0 5px 0 5px;
+	text-transform:uppercase;
+}
+
+.text-field {
+	width:140px;
+	height:31px;
+	background:url(../images/search2.png) no-repeat;
+	float:left;
+}
+
+.text-field  input {
+	background:none;
+	border:none;
+	font-size:12px;
+	color:#b1b1b1;
+	padding:7px 10px;
+	width:120px;
+	height:16px;
+	outline: 0;
+}
+
+#sidebar form{
+	width:220px;
+	margin:0 auto;
+}
+
+.first-row.second-row {
+	width:270px;
+	margin:0 auto;
+	
+	
+}
+
+.left {
+	float:left;
+	display:block;
+	padding-left:16px;
+}
+.right {
+	float:right;
+	display:block;
+	padding-right:16px;
+}
+
+.first-row{
+	margin-bottom:14px;
+}
+
+#categories ul {
+	width:140px;
+	
+}
+
+#categories ul li {
+	border-top: 1px dashed #e3e3e3;
+	padding:9px 0;
+}
+
+#categories ul li:first-child {
+	border:none;
+}
+
+.left2 {
+	float:left;
+	display:block;
+	
+}
+.right2 {
+	float:right;
+	display:block;
+	
+}
+
+#categories ul li a {
+	font-weight:bold;
+}
+
+#categories h3 {
+	margin-bottom:15px;
+}
+
+#nav ul li {
+	float:left;
+	margin-right:2px;
+}
+
+#nav {
+	margin:34px 0;
+}
+
+#nav ul {
+	overflow:hidden;
+}
+
+#nav ul li a {
+	display:block;
+	padding:9px 14px 6px 14px;
+	border-bottom:3px solid #cccccc;
+	
+}
+
+#nav ul li a:hover {
+	text-decoration:none;
+	background:#e7e7e7;
+}
+
+#nav .curren, #nav .curren:hover{
+	background:#333333;
+	color:#ffffff;
+	border:none;
+	padding-bottom:9px;	
+}
+#nav .st {
+	padding-top:7px;
+	padding-bottom:8px;
+}
+
+#footer-top {
+	height:19px;
+	background:url(../images/footer-top.png) repeat-x;
+}
+
+#footer-middle {
+	background: url(../images/footer-middle.png);
+}
+
+.footer-box {
+	padding-top:55px;
+	width:30%;
+	margin-right:5%;
+	float:left;
+}
+
+#footer-box {
+	margin-right:0;
+}
+
+#footer {
+	min-width:960px;
+	color:#e0e0e0;
+}
+
+#magazin {
+	background: url(../images/logo-footer.png) no-repeat 10px 0;
+	padding:40px 0 0 10px;
+	
+}
+
+#magazin p {
+	magazin: 16px 0;
+}
+
+#footer h3 {
+	background:url(../images/footer_post.png) repeat-x 0 4px;
+	color:#ffffff;
+	text-transform:uppercase;
+	font-size:14px;
+	font-weight:bold;
+	width:220px;
+	margin-bottom:7px;
+}
+#footer h3 span {
+	background:url(../images/footer-middle.png);
+	padding-right:12px;
+	
+}
+
+#recent-post ul li ,#archives ul li{
+	padding:12px 0;
+	background:url(../images/pun.png) repeat-x left bottom;
+}
+
+#recent-post ul li a,#archives ul li a{
+	color:#e0e0e0;
+}
+
+#archives {
+	padding-right:10px;
+}
+
+#footer-middle {
+	padding-bottom:60px;
+}
+
+#footer-bootom{
+	background:url(../images/footer_bottom_bg.png) repeat-x;
+}
+
+#footer-bootom  p{
+	margin:0;
+	padding:25px 10px;
+}
+
+#footer-bootom a {
+	color:#8f8f8f;
+}
+
+
+
+
+
+

@@ -1,0 +1,612 @@
+/*==========  Desktop First Method  ==========*/
+@media screen and (max-width: 1650px) {
+  .menu li {
+    padding-left: 20px;
+    font-size: 18px;
+  }
+  .rig-col {
+    width: 940px;
+  }
+  .slick-prev {
+    left: 1%;
+  }
+  .slick-next {
+    right: 1%;
+  }
+  .tab {
+    margin-left: 20px;
+  }
+  .tab-box > div {
+    width: 920px;
+  }
+  .tab-text .two-span {
+    padding: 60px 45px 50px 50px;
+    top: -18px;
+  }
+  .tab-text .tre-span {
+    padding: 60px 35px 50px 50px;
+    top: -14px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .menu {
+    text-align: right;
+    font-size: 17px;
+  }
+  .menu li {
+    font-size: 14px;
+  }
+  .social {
+    font-size: 18px;
+  }
+  .wrap-form textarea {
+    width: 70%;
+  }
+  .maps {
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .tab-box > div {
+    left: 375px;
+    width: 920px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .menu li {
+    padding-left: 16px;
+    font-size: 12px;
+  }
+  .pag-right {
+    display: none;
+  }
+  .zag {
+    padding: 60px 0 20px 40px;
+  }
+  .dop,
+  .left-col .p-p {
+    padding-left: 40px;
+  }
+  .cls {
+    margin-left: 50px;
+  }
+  .rig-col {
+    width: 100%;
+  }
+  .left-col .p-p {
+    width: 99%;
+  }
+  .wrap-bloc-5 {
+    width: 197px;
+    height: 216px;
+    overflow: hidden;
+  }
+  .contacts {
+    text-align: center;
+    width: 100%;
+  }
+  .contacts .h2-4 {
+    text-align: center;
+    background: none;
+  }
+  .podpis h6 {
+    text-align: center;
+  }
+  .podpis p {
+    text-align: center;
+  }
+  .podpis form {
+    position: relative;
+    left: -77px;
+  }
+  .tab-box > div {
+    left: 305px;
+    width: 920px;
+  }
+}
+/* Large Devices, Wide Screens */
+@media screen and (max-width: 1200px) {
+  .logo {
+    width: 315px;
+    margin: 0 auto;
+  }
+  .menu {
+    position: absolute;
+    top: 40px;
+    left: 65px;
+  }
+  .menu a {
+    display: none;
+  }
+  .menu li {
+    margin-top: 30px;
+    padding-left: 10px;
+    text-align: center;
+    z-index: 9999;
+  }
+  .btn-nav {
+    position: relative;
+    display: block;
+    font-size: 26px;
+    padding-top: 68px;
+  }
+  .social {
+    text-align: right;
+    font-size: 26px;
+  }
+  .slogan {
+    width: 55%;
+    margin: 60px auto 0;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #d5a353;
+  }
+  .slogan span {
+    font-size: 30px;
+  }
+  .photoo {
+    display: none;
+  }
+  .cls {
+    margin-left: 120px;
+  }
+  .wrap-item-1 {
+    height: 305px;
+    width: 280px;
+  }
+  .wrap-bloc-5 {
+    width: 290px;
+    height: 215px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .bloc-2-5 {
+    margin-bottom: 70px;
+    margin-top: 40px;
+  }
+  .wrap-form {
+    width: 650px;
+    margin: 0 auto 30px;
+  }
+  .wrap-img-tabs img {
+    display: block;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  .tab-box > div {
+    width: 70%;
+  }
+  .tab-ul li {
+    font-size: 16px;
+    padding-left: 5%;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .tab-text p {
+    width: 100%;
+  }
+  .tab-box > div {
+    width: 60%;
+  }
+  .bottons a {
+    font-size: 16px;
+    padding: 20px 20px;
+  }
+  .bottons span {
+    font-size: 16px;
+    padding: 20px 20px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .tab-ul li {
+    font-size: 16px;
+    padding-left: 5%;
+    padding-top: 20px;
+  }
+  .menu li {
+    display: block;
+  }
+  .headhesive .menu {
+    top: 42px;
+    left: 55px;
+    background: #3b3b3b;
+  }
+  .headhesive .menu li:last-child {
+    margin-bottom: 10px;
+  }
+  .menu {
+    top: 58px;
+    left: 4px;
+  }
+  .slogan {
+    width: 66%;
+  }
+  .owl-carousel {
+    width: 545px;
+  }
+  .btn-nav {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .owl-next i {
+    left: 290px;
+  }
+  .owl-prev i {
+    left: -255px;
+  }
+  .cls {
+    margin-left: 65px;
+  }
+  .h2 {
+    width: 100%;
+    background: none;
+    font-size: 30px;
+  }
+  .wrap-item-1 {
+    height: 330px;
+    width: 100%;
+  }
+  .courses .h2-3 {
+    background: none;
+    width: 100%;
+    font-size: 20px;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 800px) {
+  .logo--logo {
+    margin: 20px 0 0 30px;
+  }
+  .btn-nav {
+    top: -95px;
+  }
+  .menu {
+    top: -24px;
+    left: 0;
+  }
+  .owl-carousel {
+    width: 283px;
+  }
+  .owl-next i {
+    left: 150px;
+  }
+  .owl-prev i {
+    left: -150px;
+  }
+  .bg-1 {
+    background: url("../img/bg.jpg") no-repeat center;
+  }
+  .rig-col {
+    background: none;
+  }
+  .bg-2 {
+    background-size: cover;
+    height: 1150px;
+  }
+  .cls {
+    margin-left: 0;
+    margin-top: 20px;
+    float: none;
+  }
+  h2 {
+    margin: 35px auto -20px;
+    background: none;
+    width: 99%;
+  }
+  .menu li a {
+    padding-right: 5px;
+  }
+  .wrap-item-1 {
+    height: 290px;
+    width: 230px;
+    margin: 30px auto;
+  }
+  .tab-box > div {
+    width: 60%;
+  }
+  .tab-text span,
+  .tab-text .two-span,
+  .tab-text .tre-span {
+    padding: 0;
+  }
+  .tab-nav li a {
+    width: 150px;
+    padding: 5px 5px;
+    font-size: 14px;
+  }
+  .tab-box > div {
+    left: 170px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .slogan {
+    width: 99%;
+    margin: 199px auto 0;
+    font-size: 35px;
+  }
+  .social {
+    float: left;
+  }
+  .bg-2 {
+    height: 1250px;
+  }
+  .logo--logo {
+    margin: 20px 0 0 60px;
+  }
+  .btn-zak a {
+    font-size: 26px;
+  }
+  .slick-slide img {
+    width: 300px;
+    height: 250px;
+  }
+  .wrap-form {
+    width: 99%;
+  }
+  .wrap-form .wrap-submit {
+    position: relative;
+    width: 98%;
+  }
+  .wrap-form textarea {
+    width: 50%;
+  }
+  .tab-ul li {
+    font-size: 16px;
+    padding-left: 5%;
+    padding-top: 10px;
+  }
+  .podpis form input {
+    width: 100%;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .btn-zak a {
+    font-size: 16px;
+    outline: none;
+  }
+  .menu li {
+    margin-top: 15px;
+  }
+  .menu {
+    top: 60px;
+    left: 30px;
+  }
+  .social {
+    font-size: 23px;
+  }
+  .logo--logo {
+    margin: 0;
+    width: 180px;
+    position: absolute;
+    left: 80px;
+    top: 9px;
+  }
+  .btn-nav {
+    top: 25px;
+  }
+  .headhesive {
+    transform: translateY(-400%);
+    height: 100px;
+  }
+  .headhesive--stick {
+    transform: translateY(0);
+    z-index: 999999;
+    transition: 0.5s;
+  }
+  .social {
+    margin-top: 60px;
+    float: right;
+  }
+  .headhesive .menu {
+    top: 40px;
+    left: 50px;
+  }
+  .headhesive .logo--logo {
+    margin: 0;
+    width: 170px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  .headhesive .social {
+    font-size: 18px;
+    top: 22px;
+    padding-top: 35px;
+  }
+  .owl-next i {
+    left: 100px;
+  }
+  .owl-prev i {
+    left: -115px;
+  }
+  .owl-carousel {
+    width: 310px;
+  }
+  .owl-next i {
+    left: 80px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .zag {
+    padding: 45px 0 20px 40px;
+    font-size: 20px;
+  }
+  .dop {
+    font-size: 16px;
+    padding-bottom: 24px;
+  }
+  .dop,
+  .left-col .p-p {
+    padding-left: 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .tab {
+    margin-left: 3px;
+  }
+  .tab-nav li a {
+    width: 115px;
+    padding: 5px 0;
+    font-size: 13px;
+  }
+  .tab-box > div {
+    left: 117px;
+  }
+  .tab-text span {
+    font-size: 12px;
+    text-align: center;
+    left: 26px;
+    top: -7px;
+  }
+  .tab-text p {
+    text-align: center;
+    font-size: 14px;
+  }
+  .wrap-tab-text {
+    margin: 10px;
+  }
+  .bottons a {
+    font-size: 14px;
+    padding: 20px 20px;
+    position: relative;
+    top: 28px;
+  }
+  .bottons span {
+    font-size: 14px;
+    padding: 20px 20px;
+    position: relative;
+    top: -35px;
+  }
+  .podpis form input {
+    width: 65%;
+  }
+  .podpis form button {
+    width: 119px;
+  }
+  .podpis form {
+    left: -60px;
+  }
+  .cont-li li {
+    font-size: 14px;
+  }
+  .bottons a {
+    font-size: 12px;
+    padding: 10px 10px;
+    position: relative;
+    top: 0;
+  }
+  .bottons span {
+    font-size: 12px;
+    padding: 10px 10px;
+    position: relative;
+    top: 0;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .podpis form input {
+    width: 60%;
+  }
+  .bottons span {
+    font-size: 12px;
+    padding: 10px 10px;
+    position: relative;
+    top: 0;
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .bottons a {
+    font-size: 12px;
+    padding: 10px 10px;
+    position: relative;
+    top: 0;
+    display: block;
+    width: 90%;
+    margin: 20px auto 0;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .btn-zak a {
+    float: left;
+  }
+  .wrap-form {
+    margin: 0 auto 85px;
+  }
+  .wrap-form input[type="submit"] {
+    top: 40px;
+    left: 65px;
+  }
+  .wrap-form textarea {
+    width: 290px;
+    border-right: 1px solid #000000;
+  }
+  .podpis form input {
+    width: 50%;
+  }
+  .slogan {
+    font-size: 30px;
+  }
+  .wrap-form input {
+    margin: 25px 10px 20px 0;
+  }
+  .owl-carousel {
+    display: none !important;
+  }
+  .tab-ul li:first-child {
+    padding-left: 15px;
+    text-align: center;
+  }
+  .tab-ul li {
+    font-size: 16px;
+    padding-left: 5%;
+    padding-top: 25px;
+  }
+  .cont-li li {
+    font-size: 12px;
+  }
+  .cont-li li i {
+    color: #e6a44c;
+    font-size: 25px;
+    position: relative;
+    top: 8px;
+    padding-right: 30px;
+  }
+  .wrap-form input {
+    margin: 20px 0 20px 0;
+    width: 265px;
+  }
+  .wrap-form textarea {
+    width: 265px;
+    margin: 20px 0;
+  }
+  .wrap-form input[type="submit"] {
+    top: 75px;
+    left: 55px;
+  }
+  .social {
+    margin-top: 70px;
+    font-size: 18px;
+  }
+  .zag {
+    font-size: 18px;
+  }
+  .slick-slide img {
+    width: 280px;
+    height: 235px;
+  }
+  .wrap-bloc-5 {
+    width: 255px;
+  }
+}
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
